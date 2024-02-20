@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types';
+import styles from './Options.module.css'; // Імпортуємо стилі з CSS-модуля
 
 const Options = ({ onLeaveFeedback, totalFeedback, resetFeedback }) => {
   return (
-    <div>
+    <div className={styles.container}> {/* Додаємо клас з CSS-модуля */}
       <button type="button" onClick={() => onLeaveFeedback('good')}>Good</button>
       <button type="button" onClick={() => onLeaveFeedback('neutral')}>Neutral</button>
       <button type="button" onClick={() => onLeaveFeedback('bad')}>Bad</button>

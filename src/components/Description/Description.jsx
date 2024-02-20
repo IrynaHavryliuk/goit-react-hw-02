@@ -11,7 +11,6 @@ const Description = () => {
   export default function App() {
     return (
       <div>
-        <h1>Description</h1>
         <Description />
       </div>
     );
