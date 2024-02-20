@@ -42,7 +42,7 @@ const App = () => {
         totalFeedback={totalFeedback}
         positivePercentage={positivePercentage}
         onLeaveFeedback={updateFeedback}
-        resetFeedback={resetFeedback} // Правильно використовується resetFeedback
+        resetFeedback={resetFeedback}
       />
 
       {totalFeedback > 0 ? (
